@@ -24,12 +24,18 @@ h3 {
 .container {
     display: block;
     width: 100%;
-    height: 750px;
+    height: 100vh;
     margin: auto;
     overflow: hidden;
-    background-image: url("https://mariongrandvincent.github.io/HTML-Personal-website/img-codePen/bg-music-player.jpg");
-    background-repeat: repeat;
-    background-size: cover;
+    background-color: #222;
+    object-fit: fill;
+    -webkit-animation: super-rainbow 15s infinite alternate linear;
+}
+.header{
+
+}
+.sidebar{
+
 }
 .music-player {
     display: block;
@@ -233,4 +239,13 @@ h3 {
 }
 .mejs__controls .mejs__horizontal-volume-slider .mejs__horizontal-volume-current {
     background: #fff;
+}
+
+@keyframes super-rainbow {
+    0%   { background: red; } 
+    20%  { background: orange; }
+    40%  { background: yellow; }
+    60%  { background: green; }
+    80%  { background: blue; }
+    100% { background: violet; }
 }
