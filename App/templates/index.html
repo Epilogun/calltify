@@ -9,6 +9,8 @@
   </title>
   <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelementplayer.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
   <link href="{% static './style.css' %}" rel="stylesheet"/>
  </head>
  <body>
@@ -24,11 +26,37 @@
     <div class="contain">
      <div class="container">
        <div class="sidebar">
-         <ol>
-          <li>Sidebar Element 1</li>
-          <li>Sidebar Element 2</li>
-        </ol>
-      </div>
+          <div class="sidebar-logo"></div>
+          <h3 class="sidebar-element -active"><i class="fa fa-home"></i>  Homepage</h3>
+          <h3 class="sidebar-element"><i class="fa fa-search"></i>  Search</h3>
+          <h3 class="sidebar-element"><i class="fa fa-book"></i>  My Library</h3>
+          <h3 class="sidebar-element"><i class="fa fa-music"></i>  Playlist</h3>
+        </div>
+         <div class="right-side-bar">
+            <div class="side-bar-title">
+              Friends List
+            </div>
+            <div class="friends-list">
+              <div class="friends-row">
+                <div class="friends-image"></div>
+                <div class="friend-name">Epilogun
+                  <div class="now-listening">Kayahan - Bir Aşk Hikayesi</div>
+                </div>  
+              </div>
+              <div class="friends-row">
+                <div class="friends-image"></div>
+                <div class="friend-name">Orhtgz
+                  <div class="now-listening">Cola - CamelPhat, Elderbrook</div>
+                </div> 
+              </div>
+              <div class="friends-row">
+                <div class="friends-image"></div>
+                <div class="friend-name">DB10
+                  <div class="now-listening">Ckay - Love nwantiti</div>
+                </div>
+              </div>
+          </div>
+         </div>
       <div class="music-player">
         {% for item in page_obj %}
        <div class="cover">
