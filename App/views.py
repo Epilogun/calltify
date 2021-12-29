@@ -1,6 +1,4 @@
-# Create your views here.
 from django.shortcuts import render,redirect
-# imported our models
 from django.core.paginator import Paginator
 from . models import Song
 
