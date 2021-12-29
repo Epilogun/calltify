@@ -1,0 +1,4 @@
+id,title,image,audio_file,audio_link,duration,artist
+1,Trying,trying-album-cover.jpg,Leo_-_Trying.mp3,https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Leo%20-%20Trying.mp3,2:55,Leo
+2,Rockstar,postmalone.jpg,Post_Malone_-_rockstar_ft._21_Savage_1.mp3,https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/rockstar-album-cover.jpg,3:38,Post Malone
+3,Starset,starset.jpg,Starset - Something Wicked.mp3,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE2OIaULjz0k1SYw_VvvFSVMckZ9pVklhiNeQ8uM8pJHv36yvW-Gl2tYBJd4tsljqHJU0&usqp=CAU,Post,Starset
