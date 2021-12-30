@@ -3,15 +3,14 @@
 A music player built with django web framework
 
 ## Dependencies
-#### Python, Django==2.1
+#### Python, Django==2.1, Pillow
 
 ## Run 
 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py runserver
+### `python manage.py makemigrations`
+### `python manage.py migrate`
+### `python manage.py runserver`
 
-```
 ## Git
 
 ### Adding changes to stage `git add .`
@@ -20,5 +19,5 @@ python manage.py runserver
 
 ## Screenshots:
 
-![](https://github.com/Epilogun/Caltify/blob/master/media/unknown.png)
-![](https://github.com/Epilogun/Caltify/blob/master/media/unknown2.png)
+![](./media/unknown.png)
+![](./media/unknown2.png)
