@@ -1,7 +1,6 @@
 # Caltify Music Player
 
-A music player built with django web framework
-SE 383 Phyton Programming Project
+A music player built with django web framework - SE 383 Phyton Programming Project
 
 ## Dependencies
 #### Python, Django==2.1, Pillow
